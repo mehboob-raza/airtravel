@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Container -->
+    <div class="container">
+        
+        <!-- top bar -->
+        <div class="top-bar" id="top">
+            <h3 class="intro">Introducing the new AirTravel</h3>
+            <p>Learn More</p>
+        </div>
+        <!-- end top bar -->
+
+        <!-- navbar -->
+        <div class="navbar">
+            <div>
+                <h1>airtravel</h1>
+            </div>
+            <div class="search">
+                <form>
+                    <div class="input-container">
+                        <input type="text" placeholder="Search Properties">
+                    </div>
+                    <div>
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="menu">
+                <ul class="nav-menu">
+                    <li><a onclick="closeMenu()" href="#listings" class="nav-link">Listings</a> </li>
+                    <li><a onclick="closeMenu()" href="#featured" class="nav-link">Featured</a> </li>
+                    <li><a onclick="closeMenu()" href="#popular" class="nav-link">Popular</a> </li>
+                </ul>
+                <div onclick="mobileMenu()" class="mobile">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- navbar end -->
+
+        <!-- sort bar  -->
+
+        <div class="sort-bar">
+            <div>
+                <i class="fa-solid fa-house-chimney"></i>
+                <p>House</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-snowflake"></i>
+                <p>Artics</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-rocket"></i>
+                <p>Space</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-tree"></i>
+                <p>Tree</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-building"></i>
+                <p>Building</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-campground"></i>
+                <p>Camping</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-umbrella-beach"></i>
+                <p>Beach</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-volleyball"></i>
+                <p>Games</p>
+            </div>
+        </div>
+
+
+        <!-- end sort bar -->
+    
+
+    <!-- Listings -->
+
+    <div class="listings" id="listings">
+        <!-- properties cards -->
+        <div class="card">
+            <img src="./images/image1.png">
+            <div class="card-title">
+                <h4>City, State</h4>
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+            </div>
+            <p><span class="grey">Hosted by Reality Group, LLC</span> </p>
+            <p><span class="grey">June 1 - 7</span> </p>
+            <p> $749 night</p>
+        </div>
+
+    
+        <!-- properties cards -->
+        <div class="card">
+            <img src="./images/image2.png">
+            <div class="card-title">
+                <h4>City, State</h4>
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+            </div>
+            <p><span class="grey">Hosted by Reality Group, LLC</span> </p>
+            <p><span class="grey">June 1 - 7</span> </p>
+            <p> $749 night</p>
+        </div>
+
+
+        <!-- properties cards -->
+        <div class="card">
+            <img src="./images/image3.png">
+            <div class="card-title">
+                <h4>City, State</h4>
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+            </div>
+            <p><span class="grey">Hosted by Reality Group, LLC</span> </p>
+            <p><span class="grey">June 1 - 7</span> </p>
+            <p> $749 night</p>
+        </div>
+
+ 
+        <!-- properties cards -->
+        <div class="card">
+            <img src="./images/image4.png">
+            <div class="card-title">
+                <h4>City, State</h4>
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+            </div>
+            <p><span class="grey">Hosted by Reality Group, LLC</span> </p>
+            <p><span class="grey">June 1 - 7</span> </p>
+            <p> $749 night</p>
+        </div>
+
+    
+        <!-- properties cards -->
+        <div class="card">
+            <img src="./images/image5.png">
+            <div class="card-title">
+                <h4>City, State</h4>
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+            </div>
+            <p><span class="grey">Hosted by Reality Group, LLC</span> </p>
+            <p><span class="grey">June 1 - 7</span> </p>
+            <p> $749 night</p>
+        </div>
+
+   
+        <!-- properties cards -->
+        <div class="card">
+            <img src="./images/image6.png">
+            <div class="card-title">
+                <h4>City, State</h4>
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+            </div>
+            <p><span class="grey">Hosted by Reality Group, LLC</span> </p>
+            <p><span class="grey">June 1 - 7</span> </p>
+            <p> $749 night</p>
+        </div>
+
+
+        <!-- properties cards -->
+        <div class="card">
+            <img src="./images/image7.png">
+            <div class="card-title">
+                <h4>City, State</h4>
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+            </div>
+            <p><span class="grey">Hosted by Reality Group, LLC</span> </p>
+            <p><span class="grey">June 1 - 7</span> </p>
+            <p> $749 night</p>
+        </div>
+
+ 
+        <!-- properties cards -->
+        <div class="card">
+            <img src="./images/image8.png">
+            <div class="card-title">
+                <h4>City, State</h4>
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+            </div>
+            <p><span class="grey">Hosted by Reality Group, LLC</span> </p>
+            <p><span class="grey">June 1 - 7</span> </p>
+            <p> $749 night</p>
+        </div>
+
+ 
+        <!-- properties cards -->
+        <div class="card">
+            <img src="./images/image9.png">
+            <div class="card-title">
+                <h4>City, State</h4>
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+            </div>
+            <p><span class="grey">Hosted by Reality Group, LLC</span> </p>
+            <p><span class="grey">June 1 - 7</span> </p>
+            <p> $749 night</p>
+        </div>
+
+        <!-- properties cards -->
+        <div class="card">
+            <img src="./images/image10.png">
+            <div class="card-title">
+                <h4>City, State</h4>
+                <p>5.0 <i class="fa-solid fa-star"></i> </p>
+            </div>
+            <p><span class="grey">Hosted by Reality Group, LLC</span> </p>
+            <p><span class="grey">June 1 - 7</span> </p>
+            <p> $749 night</p>
+        </div>
+
+    </div>
+
+
+    <!-- listings end -->
+
+    <!-- feature  -->
+    <div class="featured" id="featured">
+
+        <div class="title">
+            <h1>Featured</h1>
+        </div>
+        <div class="featured-wrapper">
+            <div class="main">
+                <img src="./images/image2.png" alt="">
+            </div>
+            <div>
+                <img src="./images/image11.png" alt="">
+            </div>
+            <div>
+                <img src="./images/image12.png" alt="">
+            </div>
+            <div>
+                <img src="./images/image13.png" alt="">
+            </div>
+            <div>
+                <img src="./images/image15.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <!-- feature end -->
+
+    <!-- Popular startss -->
+    <div class="featured" id="popular">
+
+        <div class="title">
+            <h1>Popular</h1>
+        </div>
+        <div class="featured-wrapper">
+            <div>
+                <img src="./images/image2.png" alt="">
+            </div>
+            <div>
+                <img src="./images/image4.png" alt="">
+            </div>
+            <div class="main">
+                <img src="./images/image3.png" alt="">
+            </div>
+            <div>
+                <img src="./images/image5.png" alt="">
+            </div>
+            <div>
+                <img src="./images/image7.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- scroll to top -->
+
+    <div class="center">
+        <a href="#top">
+            <i class="fa-solid fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- footer starts -->
+
+    <div class="footer">
+        <ul class="left-menu">
+            <li>AirTravel</li>
+            <li>Privacy</li>
+            <li>Terms & Condition</li>
+            <li>Description</li>
+        </ul>
+        <ul class="right-menu">
+            <li>Support</li>
+            <li>Contact</li>
+        </ul>
+
+    </div>
+    <!-- Container end  -->
+</div>
+    <script>
+        const menuBtn = document.querySelector('.mobile');
+        const navMenu = document.querySelector('.nav-menu');
+
+        const mobileMenu = () => {
+            menuBtn.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        }
+
+        const closeMenu = () => {
+            navMenu.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
